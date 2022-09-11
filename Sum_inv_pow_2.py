@@ -80,4 +80,3 @@ class TrialScene(Scene):
         text8 = Tex("Animated by Adil Raza").move_to(3*DOWN)
         self.play(Write(text8), run_time = 2)
         self.wait(4)
-        
