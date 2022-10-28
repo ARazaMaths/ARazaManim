@@ -151,6 +151,6 @@ class CompletingTheSquare(Scene):
                     rec2.animate.set_fill(GREEN, opacity = 0),
                     rec3.animate.set_fill(GREEN, opacity = 0),
                     smolsquare.animate.set_fill(PINK, opacity = 0))
-        text10 = Tex("Animated by Adil Raza").move_to(3*DOWN)
+        text10 = Tex("Animated by ARazaMaths").move_to(3*DOWN)
         self.play(Write(text10), run_time = 2)
         self.wait(4)

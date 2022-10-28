@@ -77,6 +77,6 @@ class TrialScene(Scene):
         self.play(FadeIn(text7), run_time = 1)
         self.wait(2)
         self.play(FadeOut(text1, text2, text3, text4, text6, text7, text1copy, textplus1, text2copy, textplus2, text3copy, textplus3, text4copy, textplus4, text4copy, text5copy), run_time = 2)
-        text8 = Tex("Animated by Adil Raza").move_to(3*DOWN)
+        text8 = Tex("Animated by ARazaMaths").move_to(3*DOWN)
         self.play(Write(text8), run_time = 2)
         self.wait(4)
